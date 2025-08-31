@@ -1,0 +1,13 @@
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: True
+ | > Precision: fp16
+ | > Num. of CPUs: 10
+ | > Num. of Torch Threads: 8
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=/Users/user/Projects/TTS/run-August-31-2025_01+19PM-a0019ff
+ > Restoring from glow-tts ...

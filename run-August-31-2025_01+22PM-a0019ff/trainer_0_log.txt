@@ -1,0 +1,470 @@
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: True
+ | > Precision: fp16
+ | > Num. of CPUs: 10
+ | > Num. of Torch Threads: 8
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=/Users/user/Projects/TTS/run-August-31-2025_01+22PM-a0019ff
+ > Restoring from model_file.pth ...
+ > Training Environment:
+ | > Backend: Torch
+ | > Mixed precision: True
+ | > Precision: fp16
+ | > Num. of CPUs: 10
+ | > Num. of Torch Threads: 8
+ | > Torch seed: 54321
+ | > Torch CUDNN: True
+ | > Torch CUDNN deterministic: False
+ | > Torch CUDNN benchmark: False
+ | > Torch TF32 MatMul: False
+ > Start Tensorboard: tensorboard --logdir=/Users/user/Projects/TTS/run-August-31-2025_01+22PM-a0019ff
+ > Restoring from model_file.pth ...
+ > Restoring Model...
+ > Partial model initialization...
+ | > Layer missing in the model definition: decoder.flows.2.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.2.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.5.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.8.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.11.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.14.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.17.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.20.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.23.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.26.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.29.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.32.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.start.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.start.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.in_layers.3.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.0.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.0.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.1.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.1.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.2.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.2.weight_v
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.3.weight_g
+ | > Layer missing in the model definition: decoder.flows.35.wn.res_skip_layers.3.weight_v
+ | > Layer missing in the checkpoint: decoder.flows.2.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.2.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.5.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.8.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.11.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.14.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.17.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.20.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.23.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.26.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.29.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.32.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.start.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.start.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.in_layers.3.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.0.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.0.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.1.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.1.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.2.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.2.parametrizations.weight.original1
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.3.parametrizations.weight.original0
+ | > Layer missing in the checkpoint: decoder.flows.35.wn.res_skip_layers.3.parametrizations.weight.original1
+ | > Layer dimention missmatch between model definition and checkpoint: encoder.emb.weight
+ | > 290 / 507 layers are restored.
+ > Model restored from step 330000
+
+ > Model has 28610257 parameters
+
+[4m[1m > EPOCH: 0/50[0m
+ --> /Users/user/Projects/TTS/run-August-31-2025_01+22PM-a0019ff
+
+[1m > TRAINING (2025-08-31 13:23:01) [0m

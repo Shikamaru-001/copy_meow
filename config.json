@@ -1,0 +1,9 @@
+"dataset": {
+    "path": "classified/jay",           // folder with all your .wav files
+    "meta_file_train": "classified/jay/metadata.csv",  // filename|transcript
+    "meta_file_val": "classified/jay/metadata.csv",    // optional validation file
+    "phoneme_language": null,
+    "text_cleaner": "english_cleaners",
+    "batch_size": 16
+}
+
